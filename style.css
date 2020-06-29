@@ -77,11 +77,12 @@ button {
     border-radius: 5px;
     border: 2px solid yellow;
     padding: 15px;
-
 }
 
 button:hover {
     cursor: pointer;
+    background-color: yellow;
+    color: black;
 }
 
 @media only screen and (max-width: 500px) {
