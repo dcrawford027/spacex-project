@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+.container {
+    margin: 0 auto;
+    background-image: url(./images/space-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    min-height: 100px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    justify-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    font-weight: lighter;
+}
+
+#header h1 {
+    margin-left: 30px;
+}
+
+#data {
+    padding-left: 20px;
+}
+
+img {
+    width: 100px !important;
+    margin-left: 30px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+a {
+    font-style: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#links {
+    padding-left: 30px;
+}
+
+#footer div{
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    color: yellow;
+    font-size: larger;
+    border-radius: 5px;
+    border: 2px solid yellow;
+    padding: 15px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+
+    .sm-0 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    .container {
+        width: 600px;
+    }
+
+    .md-2 {
+        width:50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+
+    .lg-1 {
+        width: 25%;
+    }
+
+    .lg-2 {
+        width: 50%;
+    }
+
+    .lg-3 {
+        width: 60%;
+    }
+
+    .lg-4 {
+        width: 100%; 
+    }
+}

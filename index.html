@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>SpaceX Launch</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="header">
+            <img class="col lg-1" src="https://images2.imgbox.com/eb/0f/Vev7xkUX_o.png" alt="SpaceX patch">
+            <h1 class="col lg-3">SpaceX Launch Data</h1>
+        </div>
+
+        <div class="row" id="description"></div>
+            <div class="col lg-1" id="data">
+                
+            </div>
+
+            <div class="col sm-0 md-2 lg-3" id="links">
+                <h3>Would you like some more information? Click on the links below.</h3>
+                <ul>
+                    <li><a href="" target="_blank" id="link1">Wikipage</a></li>
+                    <li><a href="" target="_blank" id="link2">Launch Article</a></li>
+                    <li><a href="" target="_blank" id="link3">Webcast</a></li>
+                </ul>
+            </div>
+
+        <div class="row" id="footer">
+            <div class="col lg-4">
+                <p>Are you sure this is the most recent information?</p>
+                <button>Refresh Page</button>
+                <p>This site was created using jQuery and the SpaceX Current Launch API</p>
+                <p>The URL to the SpaceX API is: <a href="https://api.spacexdata.com/v4/launches/latest">SpaceX API</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
